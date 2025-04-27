@@ -1,0 +1,90 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('/src/images/bg-desktop.svg');
+    font-family: "Open Sans", sans-serif;
+    background-size: cover;
+}
+
+.header {
+    margin: 3rem 7rem;
+}
+
+.header a img {
+    height: 5rem;
+}
+
+.main {
+    display: flex;
+    margin: 5rem 7rem;
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+.main img {
+   
+}
+
+.main .infos {
+    color: white;
+    margin: 2.5em;
+    font-size: 2.4rem;
+}
+
+.main .infos h2 {
+    margin-bottom: 1rem;
+}
+
+.main .infos p {
+    font-size: 2rem;
+    font-weight: 350;
+    margin-top: 2.5rem;
+}
+
+.main .infos .btn {
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 20px 0;
+    color: hsl(257, 40%, 49%);
+    font-size: 1.8rem;
+    font-weight: 400;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    ;
+    transition: 0.3s;
+}
+
+.main .infos .btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3rem 15rem;
+}
+
+.footer i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0px 5px;
+    transition: 0.3s;
+}
+
+.footer i:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+
+}
