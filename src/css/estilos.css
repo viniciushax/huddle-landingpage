@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    
 }
 
 body {
@@ -7,6 +8,7 @@ body {
     background-image: url('/src/images/bg-desktop.svg');
     font-family: "Open Sans", sans-serif;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .header {
